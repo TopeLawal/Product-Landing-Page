@@ -101,3 +101,28 @@ i {
     margin: 0px;
     font-weight: 600;
 }
+.ft-container {
+    width: 900px;
+    background-color: rgba(155, 153, 153, 0.486);
+    padding: 20px;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+#ft-wrapper {
+    display: grid;
+    grid-template-columns: 100px 80px 100px;
+    margin-right: 20px;
+    justify-content: end;
+    font-size: 14px;
+}
+.item4 {
+    align-self: flex-end;
+    font-size: 13px;
+    color: rgb(34, 33, 33);
+}
+.item4 p {
+    margin: 5px;
+}
